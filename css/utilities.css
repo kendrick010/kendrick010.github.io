@@ -23,6 +23,15 @@ a.icon-link:hover {
   transform: rotate(15deg);
 }
 
+#socials {
+  width: 100%;
+  display: flex;
+  padding-left: 20px;
+  justify-content: left;
+  align-items: left;
+  gap: 16px;
+}
+
 
 /* Navbar Styling */
 
@@ -73,18 +82,6 @@ a.button:hover {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   cursor: pointer;
-}
-
-
-/* Footer Styling */
-
-#footer {
-  width: 100%;
-  display: flex;
-  padding: 30px 50px;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
 }
 
 /* Link Styling */

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    <title>Kendrick Nguyen Projects</title>
+    <meta name="description" content="Kendrick Nguyen's website portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="../js/script.js"></script>
+	</head>
+
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+        <span class="nav-title">@kendrick010</span>
+        <a class="button" href="mailto:ken010@ucsd.edu">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+        <div class="main-title">Predicting Graduate School Admissions</div>
+        <div class="body-text">A prediction system for graduate school admission based on GRE, GPA, etc. stats. Supports +1000 different universities.</div>
+        <image class="project-header-image" src="../assets/images/graduate-predict.gif">
+      </div>
+
+      <div id="project-details">
+        <div class="subheader-text">📕 Project Details / Background</div>
+
+        <div class="project-details-content">
+
+          <div class="body-text">A group research project for the course ECE 143: Programming for Data Analysis as of Winter 2023. Our proposed topic was to perform data analysis 
+            on factors contributing to admission rates for graduate school. However, this idea expanded to developing an AI prediction system for graduate school admission, as it worked
+            in conjunction to the data analysis. Our motivation behind this project was to highlight the stressful process of college applications. A prediction system geared for
+            college admissions could help alleviate this pressure by saving time and enabling strategic planning.
+          </div>
+
+          <div class="body-text">The project was boiled down to cleaning the datasets, performing exploratory data analysis, employing and evaluating various base models, implementing feature 
+            selection and engineering, and optimizing and evaluating the final model. From our analysis, we found that features, such as GRE scores and cumulative GPA, have significant
+            importance to admission; meanwhile, other factors, such as Research and Letters of Recommendation, are miniscule. The most appropriate model for this application was an ANN,
+            yielding a ~93% AUC score.
+          </div>
+
+          <div class="body-text">This project easily needs further refinement (with more unseen data) before any aspirations in deployment. Although our model supports +1000 graduate schools, the
+            employed dataset was heavily imbalanced, susceptible to overfitting. Additionally, the entire decision-making among college applicants is just complicated 🙃... There are many confounding factors/biases that
+            dictate the decision-making of college admission readers. For now, this project is a great proof of concept and has potential to serve unique use-cases from identifying areas of 
+            improvement in student applications to automating the decision-making for college admission readers.
+          </div>
+
+        </div>
+
+        <br>
+      
+        <a class="button" href="https://github.com/kendrick010/ece143_project">
+          <span class="button-text">Source Code</span> 
+        </a>
+
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <div class="subheader-text">🎞️ Image Gallery</div>
+
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSmTTRvbQ4gZ3Pmj_3e-dZR7DCu6YIVBztAd_dOPzYIUI7mBtdWKgx9CjW3uhFqLlEZR9Sh_LKsG9qN/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+      </div>
+    </div>
+
+	</body>
+</html>

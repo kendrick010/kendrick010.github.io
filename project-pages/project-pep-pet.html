@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    <title>Kendrick Nguyen</title>
+    <meta name="description" content="Kendrick Nguyen's website portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="../js/script.js"></script>
+	</head>
+
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+        <span class="nav-title">@kendrick010</span>
+        <a class="button" href="mailto:ken010@ucsd.edu">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+        <div class="main-title">Pep Pet</div>
+        <div class="body-text">An IoT handheld virtual pet marketed for parents and children. Featuring gamified chores to teach children healthy habits and responsibility.</div>
+        <image class="project-header-image" src="../assets/images/pep-pet.gif">
+      </div>
+
+      <div id="project-details">
+        <div class="subheader-text">📕 Project Details / Background</div>
+        <div class="project-details-content">
+
+          <div class="body-text">A MVP product for the course ECE 140B: The Art of Product Engineering as of Spring 2022. ECE 140B is a hands-on course that guides students on building a working 
+            IoT product for a customer/market. My (group's) proposed product was a handheld virtual pet, similar to a Tamagotchi, that teaches children healthy habits and responsibility. This
+            product was branded as <i>Pep Pets</i>, and it is targeted towards parents of children aged 8-13 years old.
+          </div>
+
+          <div class="body-text">Pep Pets are a unique product that appeals to the idea of raising a real pet. Raising any pet requires upholding the responsibility of feeding and
+            tending it. For Pep Pets, to keep them happy and healthy, users would need to complete tasks that range from walking outside everyday to completing chores
+            assigned by their parents. Pep Pets makes teaching children good habits and responsibility easier on their parents without all the risks and costs associated 
+            with a real pet or phone. Unlike other chore or task tracking apps, parents do not have to micromanage a child's device every single day, simply input tasks they want completed 
+            by their child on our website and mark it done when it is been completed.
+          </div>
+
+          <div class="body-text">Although small as it looks, this project packs hours worth of ideation, software and hardware development, and market analysis. Embedded in the device is a
+            Raspberry Pi, accelerometer, OLED display, buttons, and 7-segment displays. The case was modeled on Fusion360 and 3D-printed, but with further refinement and aspirations in mass production, we
+            would hope for an injection molded case. The firmware for Pep Pets was developed in Python as it notably requires seven different multi-threads for tracking happiness states, tracking hunger loss, 
+            tracking in-game level experience, capturing pedometer steps, monitoring button presses, writing for any serial communications, and reading for any serial communications. Additionally, each Pep Pet 
+            requires a database instance to store/receive tasks assigned by parents through an external full-stack website.
+          </div>
+
+        </div>
+
+        <br>
+      
+        <a class="button" href="https://github.com/k9kathyli/ECE140B-PepPets">
+          <span class="button-text">Source Code</span> 
+        </a>
+
+      </div>
+
+      <div id="project-details">
+        <div class="subheader-text">🐈 Executive Summary</div>
+
+        <div class="body-text">An executive summary outlining the product synnopsis, market fit, competitive analysis, etc.
+        </div>
+
+        <iframe height="500" src="https://docs.google.com/document/d/e/2PACX-1vTvVKKjRD8d2UE8mevWIF4HneRhKPQ86n9GpzcahhcuKmga-BZ83fqkUVcZ6yCdlbjH21Ut3KzS3ik9/pub?embedded=true"></iframe>
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <div class="subheader-text">🎞️ Image Gallery</div>
+
+        <div class="project-gallery-content">
+
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/pep-pet-face.png" class="gallery-image">
+              <span class="image-caption">The squad</span>
+            </div>
+
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/pep-pet-pedometer.gif" class="gallery-image">
+              <span class="image-caption">Emulating pedometer steps. A certain number of steps rewards in-game experience</span>
+            </div>
+
+            <div class="gallery-image-container">
+              <iframe width="700" height="400" src="https://www.youtube.com/embed/1Ng1bx5oUls"> </iframe>
+              <span class="image-caption">Parent Facing Website. Assign chores to your child on their Pep Pet</span>
+            </div>
+
+        </div>
+
+      </div>
+    </div>
+
+	</body>
+</html>

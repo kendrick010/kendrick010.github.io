@@ -48,6 +48,7 @@ body {
 .portfolio-header-image {
   width: 100%;
   height: auto;
+  border-radius: 5%;
 }
 
 #portfolio-header-text-container {
@@ -83,6 +84,13 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+
+.my-work-section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  padding-bottom: 30px;
 }
 
 .projects-container {

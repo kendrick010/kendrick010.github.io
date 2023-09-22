@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    <title>Kendrick Nguyen</title>
+    <meta name="description" content="Kendrick Nguyen's website portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="../js/script.js"></script>
+	</head>
+
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+        <span class="nav-title">@kendrick010</span>
+        <a class="button" href="mailto:ken010@ucsd.edu">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+        <div class="main-title">"Fully" Custom Mechanical Keyboard</div>
+        <div class="body-text">A 65% mechanical keyboard intended for everyday use. Custom PCB, case, and firmware for controlling LED underglow.</div>
+        <image class="project-header-image" src="../assets/images/keyborb.png">
+      </div>
+
+      <div id="project-details">
+        <div class="subheader-text">📕 Project Details / Background</div>
+
+        <div class="project-details-content">
+
+          <div class="body-text">A "fully" custom mechanical keyboard. A while back, I was reeled in by the popular mechanical keyboard hobby and community. I was intrigued by
+            the lengths hobbyists would go for in customizing and modding their keyboard to their own aesthetic and ergonomic preference. Traditionally, building a mechanical keyboard is 
+            simple as buying its designated parts (ex. case, PCB, plate, switches, etc.) and assembling it like LEGOs. However, I wanted to make my own parts, specifically designing a custom
+            PCB and case.
+          </div>
+
+          <div class="body-text">I was really inspired by keyboard builds featured on <a href="https://www.reddit.com/r/MechanicalKeyboards/">r/mechanicalkeyboards</a>; in fact, I have at least +200 different keyboard posts bookmarked 😁. Despite being
+            broke to buy them all, my custom keyboard was based on incorporating design aspects from all these posts. I decided on a "raw" look for my design where all the electronic components were exposed similar to the 
+            <a href="https://github.com/coseyfannitutti/discipline">DISCIPLINE V2</a> and the <a href="https://nullbits.co/nibble/">Nibble</a> keyboard. For makers, this keyboard is as custom and modular as it gets. No restrictions on the layout your PCB, plate, 
+            or case supports as it can be simply modified by you.
+          </div>
+
+          <div class="body-text">I designed the dream keyboard with EAGLE and Fusion360. The PCB was manufactured by JLCPCB while the acrylic case was laser-cut. The PCB is embedded with an ATMEGA32A-PU MCU for flashing firmware for keystrokes and an 
+            ATTINY45V MCU for flashing firmware for controlling the NeoPixel LED underglow.
+          </div>
+
+        </div>
+
+        <br>
+      
+        <a class="button" href="https://github.com/kendrick010/enigma">
+          <span class="button-text">Source Code</span> 
+        </a>
+        
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <div class="subheader-text">🎞️ Image Gallery</div>
+
+        <div class="project-gallery-content">
+
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/keyborb-front.png" class="gallery-image">
+              <span class="image-caption">Final keyboard design</span>
+            </div>
+
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/keyborb-underglow.gif" class="gallery-image">
+              <span class="image-caption">RGB underglow</span>
+            </div>
+
+            <div class="gallery-image-container">
+              <img src="../assets/images/keyborb-pcb.png" class="gallery-image">
+              <span class="image-caption">PCB prototype</span>
+            </div>
+
+            <div class="gallery-image-container">
+              <img src="../assets/images/keyborb-cad.png" class="gallery-image">
+              <span class="image-caption">ECAD rendering</span>
+            </div>
+
+        </div>
+
+      </div>
+    </div>
+
+	</body>
+</html>
